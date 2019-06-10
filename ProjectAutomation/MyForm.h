@@ -551,7 +551,7 @@ private: System::Void button1_Click(System::Object^  sender, System::EventArgs^ 
 	fout << cPas << std::endl;
 	fout << cNme << std::endl;
 	fout <<  cDes << std::endl;
-	system("C:/Users/Admin/Desktop/create.py");
+	system("create.py");
 }
 private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
 	label10->Visible = false; label12->Visible = false;
